@@ -49,7 +49,7 @@ const menuData = [
     },
   ];
  const [menuItems, setMenuItems] = useState(menuData);
-const [ activeCategory,setActiveCategory] = useState("all");
+const [activeCategory,setActiveCategory] = useState("all");
   
 const handleFiter = (category) => {
  setActiveCategory(category)
