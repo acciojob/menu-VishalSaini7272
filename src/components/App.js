@@ -51,9 +51,9 @@ const menuData = [
  const [menuItems, setMenuItems] = useState(menuData);
 const [activeCategory,setActiveCategory] = useState("all");
   
-const handleFiter = (category) => {
+const handleFilter = (category) => {
  setActiveCategory(category)
-  if(catrgory === "all"){
+  if(category === "all"){
      setMenuItems(menuData);
   } else {
       const filtered = menuData.filter(
